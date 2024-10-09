@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pátio de Automóveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pátio de Automóveis</h1>
+    <div id="planta">
+        <img src="imagens/planta.png" alt="Planta do Pátio" id="imagem-planta">
+        <div class="area" style="top: 20px; left: 30px; background-color: #FFFFFF;" data-area-id="1" onclick="visualizarArea(this)">Área 1</div>
+        <div class="area" style="top: 20px; left: 150px; background-color: #0000FF;" data-area-id="2" onclick="visualizarArea(this)">Área 2</div>
+        <!-- Adicione mais áreas conforme necessário -->
+    </div>
+    <div id="detalhes-area" class="hidden"></div>
+    <div id="vender-modal" class="hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

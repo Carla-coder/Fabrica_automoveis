@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#planta {
+    position: relative;
+    width: 800px; /* Ajuste de acordo com a imagem */
+    height: 600px; /* Ajuste de acordo com a imagem */
+}
+
+.area {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#detalhes-area {
+    margin-top: 20px;
+}
+
+#vender-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    z-index: 1000;
+}
