@@ -1,16 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
 }
 
-#planta {
+#patio {
     position: relative;
-    width: 800px; /* Ajuste de acordo com a imagem */
-    height: 600px; /* Ajuste de acordo com a imagem */
+    width: 800px;
+    height: 600px;
+    background-color: #f0f0f0;
+    margin: 20px auto;
+    border: 1px solid #ccc;
 }
 
-.area {
+/* .area {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -20,21 +23,68 @@ body {
     cursor: pointer;
 }
 
+ .hidden {
+    display: none;
+} 
+
+#detalhes-area {
+    margin-top: 20px;
+} */
+
+.area {
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    color: white; 
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Posições e tamanhos conforme a planta fornecida */
+#a1 { top: 215px; left: 40px; width: 150px; height: 150px; }
+#a2 { top: 300px; left: 280px; width: 70px; height: 120px; }
+#a3 { top: 250px; left: 50px; width: 250px; height: 290px; }
+#a4 { top: 200px; left: 110px; width: 120px; height: 40px; }
+#a5 { top: 230px; left: 250px; width: 300px; height: 310px; }
+#a6 { top: 50px; left: 650px; width: 100px; height: 50px; }
+#a7 { top: 160px; left: 252px; width: 120px; height: 50px; }
+#a8 { top: 50px; left: 350px; width: 100px; height: 50px; }
+#a9 { top: 50px; left: 450px; width: 150px; height: 100px; }
+#a10 { top: 50px; left: 250px; width: 400px; height: 500px; }
+#a11 { top: 50px; left: 450px; width: 150px; height: 150px; }
+
 .hidden {
     display: none;
 }
 
-#detalhes-area {
-    margin-top: 20px;
-}
-
+/* Modal de Venda */
 #vender-modal {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border: 1px solid black;
     padding: 20px;
+    border: 1px solid #000;
     z-index: 1000;
+    display: none;
 }
+
+#vender-modal h3 {
+    margin-top: 0;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+#vender-modal button {
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+

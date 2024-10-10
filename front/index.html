@@ -8,15 +8,36 @@
 </head>
 <body>
     <h1>Pátio de Automóveis</h1>
-    <div id="planta">
-        <img src="imagens/planta.png" alt="Planta do Pátio" id="imagem-planta">
-        <div class="area" style="top: 20px; left: 30px; background-color: #FFFFFF;" data-area-id="1" onclick="visualizarArea(this)">Área 1</div>
-        <div class="area" style="top: 20px; left: 150px; background-color: #0000FF;" data-area-id="2" onclick="visualizarArea(this)">Área 2</div>
-        <!-- Adicione mais áreas conforme necessário -->
-    </div>
-    <div id="detalhes-area" class="hidden"></div>
-    <div id="vender-modal" class="hidden"></div>
 
-    <script src="script.js"></script>
+    <div id="patio">
+        <div class="area" id="a5" onclick="alert('Área vazia')">5</div>
+        <div class="area" id="a3" onclick="alert('Área vazia')">3</div>
+        <!-- <div class="area" id="a10" onclick="alert('Área vazia')">10</div> -->
+        <div class="area" id="a1" onclick="alert('Área vazia')">1</div>
+        <div class="area" id="a2" onclick="alert('Área vazia')">2</div>
+        <div class="area" id="a4" onclick="alert('Área vazia')">4</div>
+        <div class="area" id="a6" onclick="alert('Área vazia')">6</div>
+        <div class="area" id="a7" onclick="alert('Área vazia')">7</div>
+        <div class="area" id="a8" onclick="alert('Área vazia')">8</div>
+        <div class="area" id="a9" onclick="alert('Área vazia')">9</div>
+        <div class="area" id="a11" onclick="alert('Área vazia')">11</div>
+    </div>
+
+    <div id="detalhes-area" class="hidden"></div>
+    <h2>Detalhes da Área</h2>
+    <div id="lista-automoveis"></div> 
+</div>
+
+    <!-- Modal de venda de automóvel -->
+    <div id="vender-modal" class="hidden">
+        <div class="modal-content">
+            <h3>Venda de Automóvel</h3>
+            <p id="modelo-carro"></p> 
+            <button id="btn-confirmar-venda" onclick="confirmarVenda()">Confirmar Venda</button>
+            <button onclick="fecharModal()">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
