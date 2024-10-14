@@ -179,11 +179,11 @@ Abra o arquivo index.html pelo LiveServer.
 
 - FreePick: vetor "free" para imagem de fundo (opcional)
 
-### Padrão utilizado no Sistema
+### Padrão de texto e cor utilizado no Sistema
 
-- Para todos os textos a fonte que você deverá utilizar é Segoe UI.
+- Para todos os textos a fonte usada foi Segoe UI.
   
-- As cores que podem ser utilizadas no desenvolvimento das suas telas são:
+- As cores utilizadas no desenvolvimento das telas são:
   
 | RGB           | HEXADECIMAL |
 |---------------|-------------|
