@@ -179,6 +179,8 @@ Abra o arquivo index.html pelo LiveServer.
 
 - FreePick: vetor "free" para imagem de fundo (opcional)
 
+### Padrão utilizado no Sistema
+
 - Para todos os textos a fonte que você deverá utilizar é Segoe UI.
   
 - As cores que podem ser utilizadas no desenvolvimento das suas telas são:
@@ -195,15 +197,15 @@ RGB	         HEXADECIMAL
 
 # Print das telas
 
-## Tela inicial
+Tela inicial
 
 - ![tela inicial](https://github.com/user-attachments/assets/d0c4caf9-3123-486d-8584-90626b98e96a)
 
-## Modal Venda
+Modal Vender
 
 - ![modal1](https://github.com/user-attachments/assets/2b8c2fdd-3cd6-41a8-bd7e-27381968b527)
 
-## Modal Confirmar
+Modal Confirmar
 
 - ![modal2](https://github.com/user-attachments/assets/6a2e5689-30ac-460b-903b-60349d2933f2)
 
