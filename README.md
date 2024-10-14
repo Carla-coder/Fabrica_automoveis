@@ -1,7 +1,7 @@
 
-# Sistema de Gerenciamento de Concessionárias de Automóveis
+# Sistema de Pátio de Automóveis
 
-Este projeto é um sistema para gerenciar concessionárias de automóveis, incluindo funcionalidades para cadastro de automóveis, clientes, concessionárias, alocações e vendas. O sistema utiliza **Prisma** como ORM e **MySQL** como banco de dados.
+Este projeto é um sistema pátio de automóveis de uma fábrica, onde os funcionários poderão clicar em uma área e visualizar os automóveis que estão atualmente alocados para ela. Também deve ser possível, através desse sistema, vender automóveis de uma área qualquer do pátio. O sistema utiliza **Prisma** como ORM e **MySQL** como banco de dados.
 
 ## Tecnologias Utilizadas
 
