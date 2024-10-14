@@ -32,7 +32,7 @@ body {
     font-size: 18px;
     padding: 10px;
     color: #000;
-    background-color: white;
+    background-color: #ffffff;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ body {
   .ativa {
     background-color: #00f;
     cursor: pointer;
-    color: #fff;
+    color: #ffffff;
   }
   
   /* Posições e tamanhos conforme a planta fornecida */
@@ -137,7 +137,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     border: 1px solid black;
     padding: 10px;
     overflow: hidden;
@@ -148,7 +148,7 @@ body {
     flex-direction: row;
     justify-content: end;
     width: 100%;
-    background-color: #00f;
+    background-color: #707070;
     border-radius: 8px;
   }
   
@@ -156,7 +156,7 @@ body {
     border: none;
     background: none;
     padding: 10px;
-    color: #fff;
+    color: #ffffff;
   }
   
   .titulo {
@@ -185,8 +185,8 @@ body {
     padding-right: 20px;
     margin: 10px;
     border: none;
-    background-color: #00f;
-    color: #fff;
+    background-color: #7814FF;
+    color: #ffffff;
     border-radius: 5px;
     font-weight: bold;
     font-size: 14px;
@@ -194,7 +194,7 @@ body {
   }
   
   .conteudo button:hover {
-    background-color: #0056b3;
+    background-color: #707070;
   }
   
   .automovel {
@@ -210,12 +210,12 @@ body {
   .automovel div {
     margin-bottom: 5px;
   }
-  
+
   .automovel button {
     padding: 10px;
     margin-top: 10px;
-    background-color: #00f;
-    color: #fff;
+    background-color: #7814ff;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -223,7 +223,7 @@ body {
   }
   
   .automovel button:hover {
-    background-color: #0056b3;
+    background-color: #707070;
   }
   
   .oculto {

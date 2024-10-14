@@ -56,7 +56,7 @@ O banco de dados é composto por cinco modelos principais:
 
 - **Node.js** instalado na sua máquina.
 - **MySQL- MariaDB** instalado e rodando.
-- **Xampp** instalado e rodando.
+- **Xampp** instalado na sua máquina.
 - **VsCode** instalado na sua máquina.
 
 ### Instalação
@@ -84,7 +84,8 @@ PORT=3000
 4. Execute as migrações do Prisma para criar as tabelas no banco de dados:
 
 ```bash
-npx prisma migrate dev --name fab_auto init
+npx prisma migrate dev --name fab_auto inity
+
 ```
 
 5. Popule o banco de dados com dados iniciais:
@@ -176,5 +177,5 @@ Abra o arquivo index.html pelo LiveServer.
 
 - Fetch API para chamadas HTTP
 
-- FreePick: vetor "free" para imagem de fundo
+- FreePick: vetor "free" para imagem de fundo (opcional)
 
