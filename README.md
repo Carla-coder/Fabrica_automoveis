@@ -195,19 +195,19 @@ RGB	         HEXADECIMAL
 
 0, 0, 0	      #000000
 
-# Print das telas
+# Print das Telas
 
-Tela inicial
+### Tela inicial
 
-- ![tela inicial](https://github.com/user-attachments/assets/d0c4caf9-3123-486d-8584-90626b98e96a)
+![tela inicial](https://github.com/user-attachments/assets/d0c4caf9-3123-486d-8584-90626b98e96a)
 
-Modal Vender
+### Modal Vender
 
-- ![modal1](https://github.com/user-attachments/assets/2b8c2fdd-3cd6-41a8-bd7e-27381968b527)
+![modal1](https://github.com/user-attachments/assets/2b8c2fdd-3cd6-41a8-bd7e-27381968b527)
 
-Modal Confirmar
+### Modal Confirmar
 
-- ![modal2](https://github.com/user-attachments/assets/6a2e5689-30ac-460b-903b-60349d2933f2)
+![modal2](https://github.com/user-attachments/assets/6a2e5689-30ac-460b-903b-60349d2933f2)
 
 
 
