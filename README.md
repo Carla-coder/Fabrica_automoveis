@@ -185,16 +185,13 @@ Abra o arquivo index.html pelo LiveServer.
   
 - As cores que podem ser utilizadas no desenvolvimento das suas telas são:
   
-| RGB	         | HEXADECIMAL |
-|----------------|--------------|
+| RGB           | HEXADECIMAL |
+|---------------|-------------|
+| 255, 255, 255 | #FFFFFF     |
+| 120, 20, 255  | #7814FF     |
+| 112, 112, 112 | #707070     |
+| 0, 0, 0      | #000000     |
 
-| 255, 255, 255 | | #FFFFFF | 
-
-| 120, 20, 255 | 	| #7814FF | 
-
-| 112, 112, 112|  | #707070 | 
-
-| 0, 0, 0 | 	   | #000000 | 
 
 # Print das Telas
 
