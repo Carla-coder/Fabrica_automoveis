@@ -134,7 +134,7 @@ O servidor estará rodando em http://localhost:3000.
 
 - POST /vendas: Cria uma nova venda.
 
-# Descrição do Projeto
+# Descrição do Projeto para Web
 
 O Pátio de Automóveis é um sistema desenvolvido para gerenciar áreas de estacionamento e automóveis disponíveis. O projeto utiliza uma interface web onde usuários podem visualizar áreas, consultar informações sobre veículos e realizar vendas.
 
